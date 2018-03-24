@@ -1,23 +1,28 @@
-package th.ac.lannapoly.app_lannapoly
+package th.ac.lannapoly.polytechlanna
 
 import android.content.Context
 import android.net.Uri
 import android.os.Bundle
 import android.support.v4.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
+import android.widget.EditText
+import com.google.firebase.database.*
+import kotlinx.android.synthetic.main.fragment_home.*
 
 
 /**
  * A simple [Fragment] subclass.
  * Activities that contain this fragment must implement the
- * [HOMEfragment.OnFragmentInteractionListener] interface
+ * [HomeFragment.OnFragmentInteractionListener] interface
  * to handle interaction events.
- * Use the [HOMEfragment.newInstance] factory method to
+ * Use the [HomeFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class HOMEfragment : Fragment() {
+class HomeFragment : Fragment() {
 
     // TODO: Rename and change types of parameters
     private var mParam1: String? = null
@@ -122,8 +127,8 @@ class HOMEfragment : Fragment() {
          * @return A new instance of fragment HomeFragment.
          */
         // TODO: Rename and change types and number of parameters
-        fun newInstance(param1: String, param2: String): HOMEfragment {
-            val fragment = HOMEfragment()
+        fun newInstance(param1: String, param2: String): HomeFragment {
+            val fragment = HomeFragment()
             val args = Bundle()
             args.putString(ARG_PARAM1, param1)
             args.putString(ARG_PARAM2, param2)
