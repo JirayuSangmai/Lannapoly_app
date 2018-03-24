@@ -5,6 +5,10 @@ import android.os.Bundle
 import android.support.design.widget.BottomNavigationView
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
+import com.google.firebase.database.DatabaseReference
+import com.google.firebase.database.FirebaseDatabase
+
+
 
 class MainActivity : AppCompatActivity(),
         HOMEfragment.OnFragmentInteractionListener,
@@ -64,5 +68,9 @@ class MainActivity : AppCompatActivity(),
         transaction.replace(R.id.frame_layout, homeFragment)
         //transaction.addToBackStack(null)
         transaction.commit()
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("message")
+
+        myRef.setValue("Hello, World!")
     }
 }
