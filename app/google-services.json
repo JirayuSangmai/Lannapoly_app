@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "529488256104",
+    "firebase_url": "https://lannapolyapp.firebaseio.com",
+    "project_id": "lannapolyapp",
+    "storage_bucket": "lannapolyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529488256104:android:7ef88efe34604375",
+        "android_client_info": {
+          "package_name": "th.ac.lannapoly.app_lannapoly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529488256104-40cgdb1ubpigppg5dkvamics57a3epgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "th.ac.lannapoly.app_lannapoly",
+            "certificate_hash": "7f4615b9da5126e7419f04ef11b35f2d5f744a7b"
+          }
+        },
+        {
+          "client_id": "529488256104-ihikf2lbpem5smks3eerun47ek60fdol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE7UHEHaJX8-UzlxJBW1oKlhWtP42X3rA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529488256104-ihikf2lbpem5smks3eerun47ek60fdol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -62,7 +62,7 @@ class MainActivity : AppCompatActivity(),
         homeFragment = HOMEfragment()
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.frame_layout, homeFragment)
-        transaction.addToBackStack(null)
+        //transaction.addToBackStack(null)
         transaction.commit()
     }
 }
