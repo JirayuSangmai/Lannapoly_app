@@ -10,17 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102118c1-f0bf-43d3-9a8a-8ee4ece7366a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_homefragment.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_homefragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/HOMEfragment.kt" afterPath="$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/HOMEfragment.kt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/MainActivity.kt" afterPath="$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/MainActivity.kt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -138,25 +129,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/MainActivity.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <marker date="1521872550000" expanded="true" signature="505:2863" ph="{...}" />
-                <marker date="1521872550000" expanded="true" signature="769:2228" ph="{...}" />
-                <marker date="1521872550000" expanded="true" signature="844:1312" ph="{...}" />
-                <marker date="1521872550000" expanded="true" signature="1354:1490" ph="{...}" />
-                <marker date="1521872550000" expanded="true" signature="1536:1676" ph="{...}" />
-                <marker date="1521872550000" expanded="true" signature="1713:2198" ph="{...}" />
-                <marker date="1521872550000" expanded="true" signature="1814:1889" ph="{...}" />
-                <marker date="1521872550000" expanded="true" signature="2285:2861" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest">
@@ -170,8 +142,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_homefragment.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fragment_homefragment.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_homefragment.xml">
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_home.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/PolyTechLanna-master-2/app/src/main/res/layout/fragment_home.xml">
           <provider selected="true" editor-type-id="android-designer2">
             <state />
           </provider>
@@ -862,7 +847,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -2691,10 +2676,11 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/MainActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build/generated/source/r/debug/th/ac/lannapoly/app_lannapoly/R.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_homefragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/HOMEfragment.kt" />
       </list>
     </option>
   </component>
@@ -2772,6 +2758,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lannapoly_app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app_lannapoly" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2947,7 +2955,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521872808976" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521876936116" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2995,7 +3003,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521872808976" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521876936116" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3157,7 +3165,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521872808977" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521876936117" />
       </method>
     </configuration>
     <list size="2">
@@ -3268,16 +3276,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-          <folding>
-            <marker date="1521872550000" expanded="true" signature="505:2863" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="769:2228" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="844:1312" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1354:1490" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1536:1676" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1713:2198" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1814:1889" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="2285:2861" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3385,16 +3384,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <marker date="1521872550000" expanded="true" signature="505:2863" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="769:2228" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="844:1312" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1354:1490" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1536:1676" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1713:2198" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1814:1889" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="2285:2861" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4080,16 +4070,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
           <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
-          <folding>
-            <marker date="1521872550000" expanded="true" signature="505:2863" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="769:2228" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="844:1312" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1354:1490" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1536:1676" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1713:2198" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1814:1889" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="2285:2861" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -4161,14 +4142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider editor-type-id="android-designer2">
         <state />
@@ -4177,23 +4150,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/MainActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <marker date="1521872550000" expanded="true" signature="505:2863" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="769:2228" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="844:1312" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1354:1490" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1536:1676" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1713:2198" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="1814:1889" ph="{...}" />
-            <marker date="1521872550000" expanded="true" signature="2285:2861" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4208,6 +4164,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/MainActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/PolyTechLanna-master-2/app/src/main/res/layout/fragment_contact.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_homefragment.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
@@ -4215,6 +4190,41 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/PolyTechLanna-master-2/app/src/main/res/layout/fragment_home.xml">
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/th/ac/lannapoly/app_lannapoly/HOMEfragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="8" selection-end-line="68" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/PolyTechLanna-master-2/app/src/main/java/th/ac/lannapoly/polytechlanna/HomeFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="129" column="37" lean-forward="false" selection-start-line="129" selection-start-column="37" selection-end-line="129" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="64" lean-forward="false" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="64" />
           <folding />
         </state>
       </provider>

@@ -25,6 +25,8 @@ class HOMEfragment : Fragment() {
 
     private var mListener: OnFragmentInteractionListener? = null
 
+    lateinit var myRef: DatabaseReference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (arguments != null) {
@@ -36,7 +38,38 @@ class HOMEfragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
         // Inflate the layout for this fragment
-        return inflater!!.inflate(R.layout.fragment_homefragment, container, false)
+        return inflater!!.inflate(R.layout.fragment_home, container, false)
+    }
+
+    override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val database = FirebaseDatabase.getInstance()
+        myRef = database.getReference("message")
+
+        myRef.addValueEventListener(object:ValueEventListener{
+            override fun onCancelled(p0: DatabaseError?) {
+
+            }
+
+            override fun onDataChange(dataSnapshot: DataSnapshot?) {
+                if(dataSnapshot != null){
+                    val message = dataSnapshot.getValue(String::class.java)
+                    textView.text = message
+                }
+
+//                dataSnapshot.let { d ->
+//
+//                }
+            }
+
+        })
+
+
+        button.setOnClickListener{
+            myRef.setValue(editText.text.toString())
+        }
+
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -86,7 +119,7 @@ class HOMEfragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment HOMEfragment.
+         * @return A new instance of fragment HomeFragment.
          */
         // TODO: Rename and change types and number of parameters
         fun newInstance(param1: String, param2: String): HOMEfragment {

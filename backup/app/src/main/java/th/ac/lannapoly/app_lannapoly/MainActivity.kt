@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity(),
                 transaction.replace(R.id.frame_layout, homeFragment)
                 transaction.addToBackStack(null)
                 transaction.commit()
+
+
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_dashboard -> {
