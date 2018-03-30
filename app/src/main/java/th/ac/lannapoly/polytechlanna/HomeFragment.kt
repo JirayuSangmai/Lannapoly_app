@@ -56,7 +56,7 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val database = FirebaseDatabase.getInstance()
-        myRef = database.getReference("message")
+        myRef = database.getReference("news")
 
         myRef.addValueEventListener(object:ValueEventListener{
             override fun onCancelled(p0: DatabaseError?) {
@@ -71,17 +71,10 @@ class HomeFragment : Fragment() {
                         val news = newsSnapshot.getValue(News::class.java)
                         if (news != null) {
                             newses.add(news)
+                            Log.i("xxx",news.title);
                         }
                     }
                 }
-//                if(dataSnapshot != null){
-//                    val message = dataSnapshot.getValue(String::class.java)
-//                    textView.text = message
-//                }
-
-//                dataSnapshot.let { d ->
-//
-//                }
             }
 
         })
