@@ -10,6 +10,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.ListView
+import android.widget.TextView
 import com.firebase.ui.database.FirebaseListAdapter
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.fragment_home.*
@@ -78,6 +80,17 @@ class HomeFragment : Fragment() {
             }
 
         })
+
+        adapter = object:FirebaseListAdapter<News>(context,News::class.java,R.layout.row_news,myRef){
+
+            override fun populateView(v: View?, model: News?, position: Int) {
+                val titleTextView = v!!.findViewById<TextView>(R.id.titleTextView)
+                titleTextView.text = model!!.title
+            }
+
+        }
+
+        listView.adapter = adapter
 
 
 //        button.setOnClickListener{
