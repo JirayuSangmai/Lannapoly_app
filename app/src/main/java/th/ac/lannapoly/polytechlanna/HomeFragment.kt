@@ -10,8 +10,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import com.firebase.ui.database.FirebaseListAdapter
 import com.google.firebase.database.*
 import kotlinx.android.synthetic.main.fragment_home.*
+import th.ac.lannapoly.polytechlanna.model.News
 
 
 /**
@@ -31,6 +33,10 @@ class HomeFragment : Fragment() {
     private var mListener: OnFragmentInteractionListener? = null
 
     lateinit var myRef: DatabaseReference
+
+    var newses: ArrayList<News> = ArrayList()
+
+    lateinit var adapter: FirebaseListAdapter<News>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -58,10 +64,20 @@ class HomeFragment : Fragment() {
             }
 
             override fun onDataChange(dataSnapshot: DataSnapshot?) {
+
                 if(dataSnapshot != null){
-                    val message = dataSnapshot.getValue(String::class.java)
-                    textView.text = message
+                    newses = ArrayList()
+                    for (newsSnapshot in dataSnapshot.children) {
+                        val news = newsSnapshot.getValue(News::class.java)
+                        if (news != null) {
+                            newses.add(news)
+                        }
+                    }
                 }
+//                if(dataSnapshot != null){
+//                    val message = dataSnapshot.getValue(String::class.java)
+//                    textView.text = message
+//                }
 
 //                dataSnapshot.let { d ->
 //
@@ -71,9 +87,9 @@ class HomeFragment : Fragment() {
         })
 
 
-        button.setOnClickListener{
-            myRef.setValue(editText.text.toString())
-        }
+//        button.setOnClickListener{
+//            myRef.setValue(editText.text.toString())
+//        }
 
     }
 
